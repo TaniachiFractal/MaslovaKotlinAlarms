@@ -7,7 +7,8 @@ suspend fun main()
 {
     var arrClocks = arrayOf(Clock("Домик","Так","ДЗЫНЬ!"),
                      Clock(),
-                     Clock("Мобильник","Пик","♫♫Вставай, страна огромная!♫♫"))
+                     Clock("Мобильник","Пик","♫♫Вставай, страна огромная!♫♫"),
+                     Clock("Alarm","aaa","ffffffffff"))
     var arrTimes : MutableList<Int> = ArrayList()
     for(i in arrClocks)
     {
